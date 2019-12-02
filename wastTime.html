@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=auto, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>timePass</title>
+    <link rel="stylesheet" 
+    href= 
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity= 
+    "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous">
+    <style>
+  
+
+    .main{
+
+        color:#465A65;
+        text-align:center;
+        border-radius: 10px;
+        margin:auto;
+        width: 60%;
+        box-shadow: 4px 12px 13px 6px #1F2F2C;        
+
+    }
+    .box{
+
+        /* background-color: #FFFFFF;
+        width: 20rem;
+        height:20px; */
+
+    font-family: 'Helvetica', serif;
+    width: 30%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #1F2F2C;
+    }
+
+    #submitDetails{font-family: 'Helvetica', serif;
+    width:18%;
+    background-color: #767474;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 20px
+    }
+    </style>
+</head>
+<body>
+    <h1 style="color:#465A65;text-align:center;margin:auto;">Hello guys..!</h1>
+<div class="main">
+    <form action="http://localhost:3000/wastTime" method="post"> 
+                      
+        <h1 style="color:#465A65;">Time Waster </h1> 
+        
+        <input class="box" type="text" name="name"
+        placeholder="name"  required /><br> 
+        
+        <input class="box" type="text" name="day" id="name" 
+        placeholder="Day"  required /><br> 
+        
+        <input class="box" type="text" name="month"
+        id="password" placeholder="Month" required/><br> 
+                         
+        <input class="box" type="text" name="year"  id="phone"  
+        placeholder="Year" required/><br> 
+
+        <input type="submit" id="submitDetails"  
+        name="submitDetails" value="Submit" /><br>   
+</div>
+</body>
+</html>
